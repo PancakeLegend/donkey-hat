@@ -427,12 +427,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0111
 U 1 1 5C049CFC
-P 3400 750
-F 0 "#PWR0111" H 3400 600 50  0001 C CNN
-F 1 "+3.3V" H 3415 923 50  0000 C CNN
-F 2 "" H 3400 750 50  0001 C CNN
-F 3 "" H 3400 750 50  0001 C CNN
-	1    3400 750 
+P 4000 800
+F 0 "#PWR0111" H 4000 650 50  0001 C CNN
+F 1 "+3.3V" H 4015 973 50  0000 C CNN
+F 2 "" H 4000 800 50  0001 C CNN
+F 3 "" H 4000 800 50  0001 C CNN
+	1    4000 800 
 	1    0    0    -1  
 $EndComp
 Text Label 750  1750 0    50   ~ 0
@@ -1162,12 +1162,6 @@ Wire Wire Line
 	5200 7450 5200 7500
 Wire Wire Line
 	6100 7150 5500 7150
-Wire Wire Line
-	2650 1550 3100 1550
-Wire Wire Line
-	2650 1750 3300 1750
-Wire Wire Line
-	2650 1850 3400 1850
 $Comp
 L Device:C C3
 U 1 1 5C14B529
@@ -1463,46 +1457,11 @@ A4
 Text Label 9900 5850 0    50   ~ 0
 A5
 $Comp
-L Device:R_Pack04 RN7
-U 1 1 5CAD6C78
-P 3300 1050
-F 0 "RN7" V 2883 1050 50  0000 C CNN
-F 1 "3.9K_Pack04" V 2974 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3575 1050 50  0001 C CNN
-F 3 "~" H 3300 1050 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/200PCS-0603-2X4-220R-220-ohm-Marking-221-SMD-Network-Resistor-array-0603-8P4R-2-4P/32845505270.html?spm=2114.search0104.3.35.c74a11b9SNycSm&ws_ab_test=searchweb0_0,searchweb201602_2_10065_10068_10130_10547_319_317_10548_10696_453_10084_454_10083_10618_10307_537_536_10131_10132_10133_10059_10884_10887_100031_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=516fab08-5bb7-441c-804a-744d42f8303d-5&algo_pvid=516fab08-5bb7-441c-804a-744d42f8303d" V 3300 1050 50  0001 C CNN "Link"
-	1    3300 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 850  3100 800 
-Wire Wire Line
-	3100 800  3200 800 
-Wire Wire Line
-	3400 800  3400 750 
-Wire Wire Line
-	3400 850  3400 800 
-Connection ~ 3400 800 
-Wire Wire Line
-	3300 850  3300 800 
-Connection ~ 3300 800 
-Wire Wire Line
-	3300 800  3400 800 
-Wire Wire Line
-	3200 850  3200 800 
-Connection ~ 3200 800 
-Wire Wire Line
-	3200 800  3300 800 
-Wire Wire Line
-	3300 1250 3300 1750
-Wire Wire Line
-	3400 1250 3400 1850
-$Comp
 L Device:C C9
 U 1 1 5CC83074
 P 3600 7150
 F 0 "C9" H 3715 7196 50  0000 L CNN
-F 1 "1uF" H 3715 7105 50  0000 L CNN
+F 1 "100nF" H 3715 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3638 7000 50  0001 C CNN
 F 3 "~" H 3600 7150 50  0001 C CNN
 	1    3600 7150
@@ -1523,11 +1482,7 @@ Connection ~ 3300 7350
 Wire Wire Line
 	3300 7350 3300 7300
 Wire Wire Line
-	3200 1450 3200 1250
-Wire Wire Line
-	2650 1450 3200 1450
-Wire Wire Line
-	3100 1250 3100 1550
+	2650 1450 3100 1450
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J15
 U 1 1 5CEC41E4
@@ -1596,10 +1551,11 @@ $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5C1BDC5B
 P 7300 4350
-F 0 "J4" H 7379 4342 50  0000 L CNN
-F 1 "ULTRA_1" H 7379 4251 50  0000 L CNN
+F 0 "J4" H 7220 4667 50  0000 C CNN
+F 1 "ULTRA_1" H 7220 4576 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7300 4350 50  0001 C CNN
 F 3 "~" H 7300 4350 50  0001 C CNN
+F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 4350 50  0001 C CNN "Link"
 	1    7300 4350
 	-1   0    0    -1  
 $EndComp
@@ -1645,10 +1601,11 @@ $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5C210D5B
 P 7300 2850
-F 0 "J3" H 7379 2842 50  0000 L CNN
-F 1 "ULTRA_0" H 7379 2751 50  0000 L CNN
+F 0 "J3" H 7220 3167 50  0000 C CNN
+F 1 "ULTRA_0" H 7220 3076 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7300 2850 50  0001 C CNN
 F 3 "~" H 7300 2850 50  0001 C CNN
+F 4 "https://tronixlabs.com.au/sensors/distance/ultrasonic/ultrasonic-distance-sensor-module-hc-sr04-2-450-cm-australia/" H 7300 2850 50  0001 C CNN "Link"
 	1    7300 2850
 	-1   0    0    -1  
 $EndComp
@@ -1782,4 +1739,81 @@ Wire Wire Line
 	7800 4800 7800 4850
 Wire Wire Line
 	7800 5200 7800 5150
+$Comp
+L Device:R R8
+U 1 1 5C3CDDE7
+P 3100 1050
+F 0 "R8" H 3170 1096 50  0000 L CNN
+F 1 "3.9K" H 3170 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 1050 50  0001 C CNN
+F 3 "~" H 3100 1050 50  0001 C CNN
+	1    3100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5C40A918
+P 3400 1050
+F 0 "R9" H 3470 1096 50  0000 L CNN
+F 1 "3.9K" H 3470 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 1050 50  0001 C CNN
+F 3 "~" H 3400 1050 50  0001 C CNN
+	1    3400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5C432542
+P 3700 1050
+F 0 "R10" H 3770 1096 50  0000 L CNN
+F 1 "3.9K" H 3770 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 1050 50  0001 C CNN
+F 3 "~" H 3700 1050 50  0001 C CNN
+	1    3700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C432548
+P 4000 1050
+F 0 "R11" H 4070 1096 50  0000 L CNN
+F 1 "3.9K" H 4070 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 1050 50  0001 C CNN
+F 3 "~" H 4000 1050 50  0001 C CNN
+	1    4000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1550 3400 1200
+Wire Wire Line
+	2650 1550 3400 1550
+Wire Wire Line
+	3100 1450 3100 1200
+Wire Wire Line
+	3100 900  3100 850 
+Wire Wire Line
+	3100 850  3400 850 
+Wire Wire Line
+	4000 850  4000 900 
+Wire Wire Line
+	3400 900  3400 850 
+Connection ~ 3400 850 
+Wire Wire Line
+	3400 850  3700 850 
+Wire Wire Line
+	3700 850  3700 900 
+Connection ~ 3700 850 
+Wire Wire Line
+	3700 850  4000 850 
+Wire Wire Line
+	3700 1200 3700 1750
+Wire Wire Line
+	2650 1750 3700 1750
+Wire Wire Line
+	4000 1850 4000 1200
+Wire Wire Line
+	2650 1850 4000 1850
+Wire Wire Line
+	4000 800  4000 850 
+Connection ~ 4000 850 
 $EndSCHEMATC
