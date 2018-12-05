@@ -301,7 +301,7 @@ L Jumper:SolderJumper_2_Open JP5
 U 1 1 5C00261D
 P 9650 5650
 F 0 "JP5" H 9550 5700 50  0000 C CNN
-F 1 "A3" H 9750 5700 50  0000 C CNN
+F 1 "A5" H 9750 5700 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 5650 50  0001 C CNN
 F 3 "~" H 9650 5650 50  0001 C CNN
 	1    9650 5650
@@ -323,7 +323,7 @@ L Jumper:SolderJumper_2_Open JP7
 U 1 1 5C002EE7
 P 9650 5850
 F 0 "JP7" H 9550 5900 50  0000 C CNN
-F 1 "A5" H 9750 5900 50  0000 C CNN
+F 1 "A3" H 9750 5900 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 5850 50  0001 C CNN
 F 3 "~" H 9650 5850 50  0001 C CNN
 	1    9650 5850
@@ -1450,11 +1450,11 @@ Text Label 9900 5100 0    50   ~ 0
 A1
 Text Label 9900 5200 0    50   ~ 0
 A2
-Text Label 9900 5650 0    50   ~ 0
+Text Label 9900 5850 0    50   ~ 0
 A3
 Text Label 9900 5750 0    50   ~ 0
 A4
-Text Label 9900 5850 0    50   ~ 0
+Text Label 9900 5650 0    50   ~ 0
 A5
 $Comp
 L Device:C C9
@@ -1583,10 +1583,6 @@ F 3 "" H 7550 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4450 7800 4450
-Text Label 7700 4450 2    50   Italic 0
-ECHO
-Text Label 7700 4350 2    50   Italic 0
-TRIG
 Wire Wire Line
 	7500 4350 8000 4350
 Wire Wire Line
@@ -1633,10 +1629,6 @@ F 3 "" H 7550 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 2950 7800 2950
-Text Label 7700 2950 2    50   Italic 0
-ECHO
-Text Label 7700 2850 2    50   Italic 0
-TRIG
 Wire Wire Line
 	7500 2850 8000 2850
 Wire Wire Line
@@ -1647,13 +1639,13 @@ Wire Wire Line
 	7550 3100 7550 3050
 Wire Wire Line
 	7550 3050 7500 3050
-Text Label 8000 2850 2    50   ~ 0
-GPIO06
-Text Label 8150 4800 2    50   ~ 0
+Text Label 8000 4350 2    50   ~ 0
 GPIO19
 Text Label 8150 3300 2    50   ~ 0
-GPIO13
-Text Label 8000 4350 2    50   ~ 0
+GPIO21
+Text Label 8150 4800 2    50   ~ 0
+GPIO20
+Text Label 8000 2850 2    50   ~ 0
 GPIO26
 $Comp
 L Device:R R3
