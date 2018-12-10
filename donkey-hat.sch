@@ -33,6 +33,7 @@ F 0 "U2" H 10150 4050 50  0000 C CNN
 F 1 "PCA9685PW" H 10150 3950 50  0000 C CNN
 F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 9825 2075 50  0001 L CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 9400 3750 50  0001 C CNN
+F 4 "https://www.digikey.com.au/product-detail/en/nxp-usa-inc/PCA9685PW118/568-11925-1-ND/5221902" H 9800 3050 50  0001 C CNN "Link"
 	1    9800 3050
 	1    0    0    -1  
 $EndComp
@@ -44,6 +45,7 @@ F 0 "U1" H 900 5050 50  0000 C CNN
 F 1 "CAT24C32" H 1400 5050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1150 4800 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 1150 4800 50  0001 C CNN
+F 4 "https://www.digikey.com.au/product-detail/en/on-semiconductor/CAT24C32WI-GT3/CAT24C32WI-GT3CT-ND/1631159" H 1150 4800 50  0001 C CNN "Link"
 	1    1150 4800
 	1    0    0    -1  
 $EndComp
@@ -1048,6 +1050,7 @@ F 0 "Q1" V 6993 5450 50  0000 C CNN
 F 1 "IRLML6401" V 6902 5450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6850 5375 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 5450 50  0001 L CNN
+F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V 6650 5450 50  0001 C CNN "Link"
 	1    6650 5450
 	0    -1   -1   0   
 $EndComp
@@ -1896,7 +1899,7 @@ $Comp
 L Device:R R12
 U 1 1 5C301B56
 P 5400 5550
-F 0 "R12" V 5300 5450 50  0000 L CNN
+F 0 "R12" V 5300 5400 50  0000 L CNN
 F 1 "1K" V 5300 5600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5330 5550 50  0001 C CNN
 F 3 "~" H 5400 5550 50  0001 C CNN
@@ -1918,7 +1921,7 @@ U 1 1 5C353BD6
 P 6100 5500
 F 0 "C4" H 6215 5546 50  0000 L CNN
 F 1 "22uF" H 6215 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6138 5350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6138 5350 50  0001 C CNN
 F 3 "~" H 6100 5500 50  0001 C CNN
 	1    6100 5500
 	1    0    0    -1  
@@ -1945,7 +1948,7 @@ U 1 1 5C3DCB8C
 P 3150 5350
 F 0 "C2" H 3265 5396 50  0000 L CNN
 F 1 "10uF" H 3265 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3188 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3188 5200 50  0001 C CNN
 F 3 "~" H 3150 5350 50  0001 C CNN
 	1    3150 5350
 	1    0    0    -1  
