@@ -34,6 +34,7 @@ F 1 "PCA9685PW" H 10150 3950 50  0000 C CNN
 F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 9825 2075 50  0001 L CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 9400 3750 50  0001 C CNN
 F 4 "https://www.digikey.com.au/product-detail/en/nxp-usa-inc/PCA9685PW118/568-11925-1-ND/5221902" H 9800 3050 50  0001 C CNN "Link"
+F 5 "28-TSSOP" H 0   0   50  0001 C CNN "Package"
 	1    9800 3050
 	1    0    0    -1  
 $EndComp
@@ -46,6 +47,7 @@ F 1 "CAT24C32" H 1400 5050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1150 4800 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 1150 4800 50  0001 C CNN
 F 4 "https://www.digikey.com.au/product-detail/en/on-semiconductor/CAT24C32WI-GT3/CAT24C32WI-GT3CT-ND/1631159" H 1150 4800 50  0001 C CNN "Link"
+F 5 "8-SOIC" H 0   0   50  0001 C CNN "Package"
 	1    1150 4800
 	1    0    0    -1  
 $EndComp
@@ -169,6 +171,7 @@ F 0 "C7" H 9015 1346 50  0000 L CNN
 F 1 "10uF" H 9015 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8938 1150 50  0001 C CNN
 F 3 "~" H 8900 1300 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    8900 1300
 	1    0    0    -1  
 $EndComp
@@ -208,6 +211,7 @@ F 0 "R7" H 8820 2896 50  0000 L CNN
 F 1 "10K" H 8820 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 2850 50  0001 C CNN
 F 3 "~" H 8750 2850 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    8750 2850
 	1    0    0    -1  
 $EndComp
@@ -553,6 +557,7 @@ F 1 "220_Pack04" V 4574 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5175 1500 50  0001 C CNN
 F 3 "~" H 4900 1500 50  0001 C CNN
 F 4 "https://www.aliexpress.com/item/200PCS-0603-2X4-220R-220-ohm-Marking-221-SMD-Network-Resistor-array-0603-8P4R-2-4P/32845505270.html?spm=2114.search0104.3.35.c74a11b9SNycSm&ws_ab_test=searchweb0_0,searchweb201602_2_10065_10068_10130_10547_319_317_10548_10696_453_10084_454_10083_10618_10307_537_536_10131_10132_10133_10059_10884_10887_100031_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=516fab08-5bb7-441c-804a-744d42f8303d-5&algo_pvid=516fab08-5bb7-441c-804a-744d42f8303d" V 4900 1500 50  0001 C CNN "Link"
+F 5 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    4900 1500
 	0    1    1    0   
 $EndComp
@@ -704,6 +709,7 @@ F 0 "RN2" V 6433 1500 50  0000 C CNN
 F 1 "220_Pack04" V 6524 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7125 1500 50  0001 C CNN
 F 3 "~" H 6850 1500 50  0001 C CNN
+F 4 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    6850 1500
 	0    1    1    0   
 $EndComp
@@ -908,6 +914,7 @@ F 0 "R2" V 1900 4550 50  0000 C CNN
 F 1 "3.9K" V 1900 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1930 4650 50  0001 C CNN
 F 3 "~" H 2000 4650 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    2000 4650
 	-1   0    0    1   
 $EndComp
@@ -952,6 +959,7 @@ F 0 "D1" H 892 5795 50  0000 C CNN
 F 1 "PWR" H 892 5886 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 900 6050 50  0001 C CNN
 F 3 "~" H 900 6050 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    900  6050
 	-1   0    0    1   
 $EndComp
@@ -974,6 +982,7 @@ F 0 "R1" V 1200 5950 50  0000 C CNN
 F 1 "470" V 1200 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6050 50  0001 C CNN
 F 3 "~" H 1300 6050 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    1300 6050
 	0    -1   -1   0   
 $EndComp
@@ -1051,6 +1060,7 @@ F 1 "IRLML6401" V 6902 5450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6850 5375 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 5450 50  0001 L CNN
 F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V 6650 5450 50  0001 C CNN "Link"
+F 5 "SOT-23" H 0   0   50  0001 C CNN "Package"
 	1    6650 5450
 	0    -1   -1   0   
 $EndComp
@@ -1078,6 +1088,7 @@ F 0 "D2" H 4550 7400 50  0000 L CNN
 F 1 "WS2812B" H 4550 6900 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4500 6850 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4550 6775 50  0001 L TNN
+F 4 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    4450 7150
 	1    0    0    -1  
 $EndComp
@@ -1115,6 +1126,7 @@ F 0 "D3" H 5300 7400 50  0000 L CNN
 F 1 "WS2812B" H 5300 6900 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5250 6850 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5300 6775 50  0001 L TNN
+F 4 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
@@ -1160,6 +1172,7 @@ F 0 "C3" H 3350 7250 50  0000 L CNN
 F 1 "100nF" H 3350 7050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3338 7000 50  0001 C CNN
 F 3 "~" H 3300 7150 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    3300 7150
 	1    0    0    -1  
 $EndComp
@@ -1197,6 +1210,7 @@ F 0 "C8" H 9465 1346 50  0000 L CNN
 F 1 "100nF" H 9465 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9388 1150 50  0001 C CNN
 F 3 "~" H 9350 1300 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    9350 1300
 	1    0    0    -1  
 $EndComp
@@ -1336,6 +1350,7 @@ F 0 "RN6" V 9883 5750 50  0000 C CNN
 F 1 "10K_Pack04" V 9974 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10575 5750 50  0001 C CNN
 F 3 "~" H 10300 5750 50  0001 C CNN
+F 4 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    10300 5750
 	0    1    -1   0   
 $EndComp
@@ -1347,6 +1362,7 @@ F 0 "RN5" V 9883 5100 50  0000 C CNN
 F 1 "10K_Pack04" V 9974 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 10575 5100 50  0001 C CNN
 F 3 "~" H 10300 5100 50  0001 C CNN
+F 4 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    10300 5100
 	0    1    -1   0   
 $EndComp
@@ -1452,6 +1468,7 @@ F 0 "C9" H 3715 7196 50  0000 L CNN
 F 1 "100nF" H 3715 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3638 7000 50  0001 C CNN
 F 3 "~" H 3600 7150 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    3600 7150
 	1    0    0    -1  
 $EndComp
@@ -1643,6 +1660,7 @@ F 0 "R3" H 7730 3146 50  0000 R CNN
 F 1 "330" H 7730 3055 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 3100 50  0001 C CNN
 F 3 "~" H 7800 3100 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 3100
 	-1   0    0    -1  
 $EndComp
@@ -1654,6 +1672,7 @@ F 0 "R4" H 7870 3546 50  0000 L CNN
 F 1 "470" H 7870 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 3500 50  0001 C CNN
 F 3 "~" H 7800 3500 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 3500
 	1    0    0    -1  
 $EndComp
@@ -1685,6 +1704,7 @@ F 0 "R5" H 7730 4646 50  0000 R CNN
 F 1 "330" H 7730 4555 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 4600 50  0001 C CNN
 F 3 "~" H 7800 4600 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 4600
 	-1   0    0    -1  
 $EndComp
@@ -1696,6 +1716,7 @@ F 0 "R6" H 7870 5046 50  0000 L CNN
 F 1 "470" H 7870 4955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7730 5000 50  0001 C CNN
 F 3 "~" H 7800 5000 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    7800 5000
 	1    0    0    -1  
 $EndComp
@@ -1727,6 +1748,7 @@ F 0 "R8" H 3170 1096 50  0000 L CNN
 F 1 "3.9K" H 3170 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 1050 50  0001 C CNN
 F 3 "~" H 3100 1050 50  0001 C CNN
+F 4 "0603" H 3100 1050 50  0001 C CNN "Package"
 	1    3100 1050
 	1    0    0    -1  
 $EndComp
@@ -1738,6 +1760,7 @@ F 0 "R9" H 3470 1096 50  0000 L CNN
 F 1 "3.9K" H 3470 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 1050 50  0001 C CNN
 F 3 "~" H 3400 1050 50  0001 C CNN
+F 4 "0603" H 3400 1050 50  0001 C CNN "Package"
 	1    3400 1050
 	1    0    0    -1  
 $EndComp
@@ -1749,6 +1772,7 @@ F 0 "R10" H 3770 1096 50  0000 L CNN
 F 1 "3.9K" H 3770 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 1050 50  0001 C CNN
 F 3 "~" H 3700 1050 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    3700 1050
 	1    0    0    -1  
 $EndComp
@@ -1760,6 +1784,7 @@ F 0 "R11" H 4070 1096 50  0000 L CNN
 F 1 "3.9K" H 4070 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 1050 50  0001 C CNN
 F 3 "~" H 4000 1050 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    4000 1050
 	1    0    0    -1  
 $EndComp
@@ -1805,6 +1830,7 @@ F 1 "MPM3632C" H 4475 6237 50  0000 C CNN
 F 2 "libs:mpm3632c" H 4500 5450 50  0001 C CNN
 F 3 "https://media.monolithicpower.com/document/m/p/mpm3632c_r1.0.pdf" H 4500 5450 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MPM3632CGQV-Z/1589-1955-1-ND/9637668" H 4500 5450 50  0001 C CNN "Link"
+F 5 "20-QFN" H 0   0   50  0001 C CNN "Package"
 	1    4500 5450
 	1    0    0    -1  
 $EndComp
@@ -1892,6 +1918,7 @@ F 0 "R14" H 5820 5896 50  0000 L CNN
 F 1 "8.87K" H 5820 5805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 5850 50  0001 C CNN
 F 3 "~" H 5750 5850 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    5750 5850
 	1    0    0    -1  
 $EndComp
@@ -1903,6 +1930,7 @@ F 0 "R12" V 5300 5400 50  0000 L CNN
 F 1 "1K" V 5300 5600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5330 5550 50  0001 C CNN
 F 3 "~" H 5400 5550 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    5400 5550
 	0    1    1    0   
 $EndComp
@@ -1923,6 +1951,7 @@ F 0 "C4" H 6215 5546 50  0000 L CNN
 F 1 "22uF" H 6215 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6138 5350 50  0001 C CNN
 F 3 "~" H 6100 5500 50  0001 C CNN
+F 4 "1206" H 0   0   50  0001 C CNN "Package"
 	1    6100 5500
 	1    0    0    -1  
 $EndComp
@@ -1934,6 +1963,7 @@ F 0 "R13" H 5820 5546 50  0000 L CNN
 F 1 "47K" H 5820 5455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 5500 50  0001 C CNN
 F 3 "~" H 5750 5500 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    5750 5500
 	1    0    0    -1  
 $EndComp
@@ -1950,6 +1980,7 @@ F 0 "C2" H 3265 5396 50  0000 L CNN
 F 1 "10uF" H 3265 5305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3188 5200 50  0001 C CNN
 F 3 "~" H 3150 5350 50  0001 C CNN
+F 4 "1206" H 0   0   50  0001 C CNN "Package"
 	1    3150 5350
 	1    0    0    -1  
 $EndComp
@@ -2004,6 +2035,7 @@ F 0 "R15" H 3620 5396 50  0000 L CNN
 F 1 "100K" H 3620 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 5350 50  0001 C CNN
 F 3 "~" H 3550 5350 50  0001 C CNN
+F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    3550 5350
 	1    0    0    -1  
 $EndComp
