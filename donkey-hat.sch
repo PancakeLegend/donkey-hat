@@ -35,6 +35,8 @@ F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 9825 2075 50  0001 L CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 9400 3750 50  0001 C CNN
 F 4 "https://www.digikey.com.au/product-detail/en/nxp-usa-inc/PCA9685PW118/568-11925-1-ND/5221902" H 9800 3050 50  0001 C CNN "Link"
 F 5 "28-TSSOP" H 0   0   50  0001 C CNN "Package"
+F 6 "NXP" H 9800 3050 50  0001 C CNN "Manufacturer"
+F 7 "PCA9685" H 9800 3050 50  0001 C CNN "Mfg Part #"
 	1    9800 3050
 	1    0    0    -1  
 $EndComp
@@ -48,6 +50,8 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1150 4800 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 1150 4800 50  0001 C CNN
 F 4 "https://www.digikey.com.au/product-detail/en/on-semiconductor/CAT24C32WI-GT3/CAT24C32WI-GT3CT-ND/1631159" H 1150 4800 50  0001 C CNN "Link"
 F 5 "8-SOIC" H 0   0   50  0001 C CNN "Package"
+F 6 "ONsemi" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "CAT24C32" H 0   0   50  0001 C CNN "Mfg Part #"
 	1    1150 4800
 	1    0    0    -1  
 $EndComp
@@ -556,7 +560,7 @@ F 0 "RN1" V 4483 1500 50  0000 C CNN
 F 1 "220_Pack04" V 4574 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5175 1500 50  0001 C CNN
 F 3 "~" H 4900 1500 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/200PCS-0603-2X4-220R-220-ohm-Marking-221-SMD-Network-Resistor-array-0603-8P4R-2-4P/32845505270.html?spm=2114.search0104.3.35.c74a11b9SNycSm&ws_ab_test=searchweb0_0,searchweb201602_2_10065_10068_10130_10547_319_317_10548_10696_453_10084_454_10083_10618_10307_537_536_10131_10132_10133_10059_10884_10887_100031_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=516fab08-5bb7-441c-804a-744d42f8303d-5&algo_pvid=516fab08-5bb7-441c-804a-744d42f8303d" V 4900 1500 50  0001 C CNN "Link"
+F 4 "" V 4900 1500 50  0001 C CNN "Link"
 F 5 "SMD" H 0   0   50  0001 C CNN "Package"
 	1    4900 1500
 	0    1    1    0   
@@ -1061,6 +1065,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6850 5375 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 5450 50  0001 L CNN
 F 4 "https://www.digikey.com.au/product-detail/en/infineon-technologies/IRLML6401TRPBF/IRLML6401PBFCT-ND/812509" V 6650 5450 50  0001 C CNN "Link"
 F 5 "SOT-23" H 0   0   50  0001 C CNN "Package"
+F 6 "International Rectifier" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "IRLML6402PbF" H 0   0   50  0001 C CNN "Mfg Part #"
 	1    6650 5450
 	0    -1   -1   0   
 $EndComp
@@ -1089,6 +1095,8 @@ F 1 "WS2812B" H 4550 6900 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4500 6850 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4550 6775 50  0001 L TNN
 F 4 "SMD" H 0   0   50  0001 C CNN "Package"
+F 5 "Worldsemi" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WS2812B" H 0   0   50  0001 C CNN "Mfg Part #"
 	1    4450 7150
 	1    0    0    -1  
 $EndComp
@@ -1127,6 +1135,8 @@ F 1 "WS2812B" H 5300 6900 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5250 6850 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5300 6775 50  0001 L TNN
 F 4 "SMD" H 0   0   50  0001 C CNN "Package"
+F 5 "Worldsemi" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WS2812B" H 0   0   50  0001 C CNN "Mfg Part #"
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
@@ -1831,18 +1841,20 @@ F 2 "libs:mpm3632c" H 4500 5450 50  0001 C CNN
 F 3 "https://media.monolithicpower.com/document/m/p/mpm3632c_r1.0.pdf" H 4500 5450 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MPM3632CGQV-Z/1589-1955-1-ND/9637668" H 4500 5450 50  0001 C CNN "Link"
 F 5 "20-QFN" H 0   0   50  0001 C CNN "Package"
+F 6 "MPS" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MPM3632C" H 0   0   50  0001 C CNN "Mfg Part #"
 	1    4500 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0140
 U 1 1 5C0FC540
-P 3150 5600
-F 0 "#PWR0140" H 3150 5350 50  0001 C CNN
-F 1 "GND" H 3155 5427 50  0000 C CNN
-F 2 "" H 3150 5600 50  0001 C CNN
-F 3 "" H 3150 5600 50  0001 C CNN
-	1    3150 5600
+P 3200 5600
+F 0 "#PWR0140" H 3200 5350 50  0001 C CNN
+F 1 "GND" H 3205 5427 50  0000 C CNN
+F 2 "" H 3200 5600 50  0001 C CNN
+F 3 "" H 3200 5600 50  0001 C CNN
+	1    3200 5600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1975,29 +1987,26 @@ Connection ~ 5750 5650
 $Comp
 L Device:C C2
 U 1 1 5C3DCB8C
-P 3150 5350
-F 0 "C2" H 3265 5396 50  0000 L CNN
-F 1 "10uF" H 3265 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3188 5200 50  0001 C CNN
-F 3 "~" H 3150 5350 50  0001 C CNN
-F 4 "1206" H 0   0   50  0001 C CNN "Package"
-	1    3150 5350
+P 3200 5350
+F 0 "C2" H 3315 5396 50  0000 L CNN
+F 1 "10uF" H 3315 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3238 5200 50  0001 C CNN
+F 3 "~" H 3200 5350 50  0001 C CNN
+F 4 "1206" H 50  0   50  0001 C CNN "Package"
+	1    3200 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5200 3150 5150
+	3200 5500 3200 5550
 Wire Wire Line
-	3150 5500 3150 5550
-Wire Wire Line
-	3150 5150 3000 5150
-Connection ~ 3150 5150
+	3100 5150 3000 5150
 Wire Wire Line
 	3000 5250 3000 5550
 Wire Wire Line
-	3000 5550 3150 5550
-Connection ~ 3150 5550
+	3000 5550 3200 5550
+Connection ~ 3200 5550
 Wire Wire Line
-	3150 5550 3150 5600
+	3200 5550 3200 5600
 Wire Wire Line
 	5600 5350 5750 5350
 Connection ~ 5600 5350
@@ -2039,12 +2048,9 @@ F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    3550 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 5150 3550 5150
 Connection ~ 3750 5150
 Wire Wire Line
 	3550 5200 3550 5150
-Connection ~ 3550 5150
 Wire Wire Line
 	3550 5150 3750 5150
 Wire Wire Line
@@ -2069,4 +2075,38 @@ Wire Notes Line
 	2400 6550 6950 6550
 Text Notes 2600 4650 0    50   ~ 0
 6-20V 3A switch mode regulator\n
+Text Label 3550 5150 1    50   ~ 0
+VIN_REG
+Text Label 3200 6200 2    50   ~ 0
+VIN
+Wire Wire Line
+	3200 6100 2900 6100
+Wire Wire Line
+	3200 6200 2900 6200
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5C1E72E1
+P 2700 6200
+F 0 "J5" H 2620 5875 50  0000 C CNN
+F 1 "REG/BYPASS" H 2620 5966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2700 6200 50  0001 C CNN
+F 3 "~" H 2700 6200 50  0001 C CNN
+	1    2700 6200
+	-1   0    0    1   
+$EndComp
+Text Label 3100 5150 1    50   ~ 0
+VIN
+Text Label 3200 6300 2    50   ~ 0
+VIN_REG
+Wire Wire Line
+	3200 6300 2900 6300
+Wire Wire Line
+	3200 5200 3200 5150
+Wire Wire Line
+	3200 5150 3550 5150
+Connection ~ 3550 5150
+Text Label 6450 5350 2    50   ~ 0
+REG
+Text Label 3200 6100 2    50   ~ 0
+REG
 $EndSCHEMATC
