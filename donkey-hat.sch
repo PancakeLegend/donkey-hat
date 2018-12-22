@@ -1014,13 +1014,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C20A2ED
-P 2800 5250
-F 0 "J1" H 2879 5242 50  0000 L CNN
-F 1 "6-18V" H 2879 5151 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 2800 5250 50  0001 C CNN
-F 3 "~" H 2800 5250 50  0001 C CNN
-	1    2800 5250
-	-1   0    0    1   
+P 2800 5150
+F 0 "J1" H 2879 5142 50  0000 L CNN
+F 1 "6-18V" H 2879 5051 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 2800 5150 50  0001 C CNN
+F 3 "~" H 2800 5150 50  0001 C CNN
+	1    2800 5150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:CP C1
@@ -2001,8 +2001,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 5150 3000 5150
 Wire Wire Line
-	3000 5250 3000 5550
-Wire Wire Line
 	3000 5550 3200 5550
 Connection ~ 3200 5550
 Wire Wire Line
@@ -2109,4 +2107,6 @@ Text Label 6450 5350 2    50   ~ 0
 REG
 Text Label 3200 6100 2    50   ~ 0
 REG
+Wire Wire Line
+	3000 5250 3000 5550
 $EndSCHEMATC
