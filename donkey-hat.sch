@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:donkey-hat-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1838,7 +1838,7 @@ P 4500 5450
 F 0 "U3" H 4475 6328 50  0000 C CNN
 F 1 "MPM3632C" H 4475 6237 50  0000 C CNN
 F 2 "libs:mpm3632c" H 4500 5450 50  0001 C CNN
-F 3 "https://media.monolithicpower.com/document/m/p/mpm3632c_r1.0.pdf" H 4500 5450 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3632CGQV/document_id/4349/" H 4500 5450 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MPM3632CGQV-Z/1589-1955-1-ND/9637668" H 4500 5450 50  0001 C CNN "Link"
 F 5 "20-QFN" H 0   0   50  0001 C CNN "Package"
 F 6 "MPS" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1910,18 +1910,9 @@ NoConn ~ 3800 5550
 NoConn ~ 5150 5250
 Wire Wire Line
 	4650 4750 4550 4750
-Connection ~ 4450 4750
-Wire Wire Line
-	4450 4750 4350 4750
 Connection ~ 4550 4750
 Wire Wire Line
 	4550 4750 4450 4750
-Wire Wire Line
-	5150 5450 5200 5450
-Wire Wire Line
-	5200 5450 5200 5350
-Wire Wire Line
-	5200 5350 5150 5350
 $Comp
 L Device:R R14
 U 1 1 5C2CC6BC
@@ -1952,9 +1943,6 @@ Wire Wire Line
 	5550 5550 5600 5550
 Wire Wire Line
 	5600 5550 5600 5350
-Wire Wire Line
-	5600 5350 5200 5350
-Connection ~ 5200 5350
 $Comp
 L Device:C C4
 U 1 1 5C353BD6
@@ -1980,10 +1968,7 @@ F 4 "0603" H 0   0   50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 5650 5750 5650
-Wire Wire Line
 	5750 5700 5750 5650
-Connection ~ 5750 5650
 $Comp
 L Device:C C2
 U 1 1 5C3DCB8C
@@ -2109,4 +2094,9 @@ Text Label 3200 6100 2    50   ~ 0
 REG
 Wire Wire Line
 	3000 5250 3000 5550
+Connection ~ 5750 5650
+Wire Wire Line
+	5150 5650 5750 5650
+Wire Wire Line
+	5150 5350 5600 5350
 $EndSCHEMATC

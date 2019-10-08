@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name donkey-hat)(type Legacy)(uri C:/Users/mage/Dropbox/GitHub/donkey-hat/libs/mpm3632c.lib)(options "")(descr ""))
+  (lib (name donkey-hat)(type Legacy)(uri ${KIPRJMOD}/libs/mpm3632c.lib)(options "")(descr ""))
+  (lib (name donkey-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/donkey-hat-rescue.lib)(options "")(descr ""))
 )
