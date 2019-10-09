@@ -1087,94 +1087,6 @@ Connection ~ 7100 5850
 Wire Wire Line
 	7100 5850 7100 5750
 $Comp
-L LED:WS2812B D2
-U 1 1 5C31B762
-P 4450 7150
-F 0 "D2" H 4550 7400 50  0000 L CNN
-F 1 "WS2812B" H 4550 6900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4500 6850 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4550 6775 50  0001 L TNN
-F 4 "SMD" H 0   0   50  0001 C CNN "Package"
-F 5 "Worldsemi" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "WS2812B" H 0   0   50  0001 C CNN "Mfg Part #"
-	1    4450 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 7150 4150 7150
-$Comp
-L power:GND #PWR0128
-U 1 1 5C33445D
-P 4450 7500
-F 0 "#PWR0128" H 4450 7250 50  0001 C CNN
-F 1 "GND" H 4455 7327 50  0000 C CNN
-F 2 "" H 4450 7500 50  0001 C CNN
-F 3 "" H 4450 7500 50  0001 C CNN
-	1    4450 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0129
-U 1 1 5C3345B1
-P 4450 6800
-F 0 "#PWR0129" H 4450 6650 50  0001 C CNN
-F 1 "+5V" H 4465 6973 50  0000 C CNN
-F 2 "" H 4450 6800 50  0001 C CNN
-F 3 "" H 4450 6800 50  0001 C CNN
-	1    4450 6800
-	1    0    0    -1  
-$EndComp
-Text Label 6100 7150 2    50   ~ 0
-WS2812B_OUT
-$Comp
-L LED:WS2812B D3
-U 1 1 5C334A57
-P 5200 7150
-F 0 "D3" H 5300 7400 50  0000 L CNN
-F 1 "WS2812B" H 5300 6900 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5250 6850 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5300 6775 50  0001 L TNN
-F 4 "SMD" H 0   0   50  0001 C CNN "Package"
-F 5 "Worldsemi" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "WS2812B" H 0   0   50  0001 C CNN "Mfg Part #"
-	1    5200 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 7150 4900 7150
-Wire Wire Line
-	4450 6850 4450 6800
-Wire Wire Line
-	4450 7450 4450 7500
-$Comp
-L power:+5V #PWR0130
-U 1 1 5C37EF3C
-P 5200 6800
-F 0 "#PWR0130" H 5200 6650 50  0001 C CNN
-F 1 "+5V" H 5215 6973 50  0000 C CNN
-F 2 "" H 5200 6800 50  0001 C CNN
-F 3 "" H 5200 6800 50  0001 C CNN
-	1    5200 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 6850 5200 6800
-$Comp
-L power:GND #PWR0131
-U 1 1 5C397ECA
-P 5200 7500
-F 0 "#PWR0131" H 5200 7250 50  0001 C CNN
-F 1 "GND" H 5205 7327 50  0000 C CNN
-F 2 "" H 5200 7500 50  0001 C CNN
-F 3 "" H 5200 7500 50  0001 C CNN
-	1    5200 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 7450 5200 7500
-Wire Wire Line
-	6100 7150 5500 7150
-$Comp
 L Device:C C3
 U 1 1 5C14B529
 P 3300 7150
@@ -1300,7 +1212,7 @@ Wire Notes Line
 	500  4000 4250 4000
 Text Notes 800  750  0    50   ~ 0
 Raspberry Pi
-Text Label 4100 7150 1    50   ~ 0
+Text Label 5900 7150 2    50   ~ 0
 GPIO18
 Wire Notes Line
 	8300 6500 8300 500 
@@ -2099,4 +2011,8 @@ Wire Wire Line
 	5150 5650 5750 5650
 Wire Wire Line
 	5150 5350 5600 5350
+Wire Wire Line
+	6100 7150 5900 7150
+Text Notes 4600 7350 0    118  ~ 24
+Add some I/O protection.
 $EndSCHEMATC
