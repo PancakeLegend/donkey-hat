@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:donkey-hat-cache
+LIBS:dingo-hat-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1891,4 +1891,32 @@ Wire Wire Line
 	6100 7150 5900 7150
 Text Notes 4600 7350 0    118  ~ 24
 Add some I/O protection.
+$Comp
+L graphics:LCA2020Logo G?
+U 1 1 5DA95D6D
+P 600 7200
+F 0 "G?" H 550 7200 50  0000 L CNN
+F 1 "LCA2020Logo" H 600 7200 50  0001 C CNN
+F 2 "" H 600 7200 50  0001 C CNN
+F 3 "" H 600 7200 50  0001 C CNN
+	1    600  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L graphics:CCHSLogo G?
+U 1 1 5DA9B14E
+P 600 7100
+F 0 "G?" H 550 7100 50  0000 L CNN
+F 1 "CCHSLogo" H 600 7100 50  0001 C CNN
+F 2 "" H 600 7100 50  0001 C CNN
+F 3 "" H 600 7100 50  0001 C CNN
+	1    600  7100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1150 7800 1150 6850
+Wire Notes Line
+	1150 6850 500  6850
+Text Notes 450  6950 0    50   ~ 0
+Graphics/Logos
 $EndSCHEMATC

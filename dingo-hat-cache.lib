@@ -476,6 +476,28 @@ X OUT 8-9 650 100 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# graphics_CCHSLogo
+#
+DEF graphics_CCHSLogo G 0 40 Y Y 1 F N
+F0 "G" 0 0 50 H V C CNN
+F1 "graphics_CCHSLogo" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# graphics_LCA2020Logo
+#
+DEF graphics_LCA2020Logo G 0 40 Y Y 1 F N
+F0 "G" 0 0 50 H V C CNN
+F1 "graphics_LCA2020Logo" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P

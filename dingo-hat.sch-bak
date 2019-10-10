@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:donkey-hat-cache
+LIBS:dingo-hat-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,21 +38,6 @@ F 5 "28-TSSOP" H 0   0   50  0001 C CNN "Package"
 F 6 "NXP" H 9800 3050 50  0001 C CNN "Manufacturer"
 F 7 "PCA9685" H 9800 3050 50  0001 C CNN "Mfg Part #"
 	1    9800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Memory_EEPROM:CAT24C256 U1
-U 1 1 5BFFCBDD
-P 1150 4800
-F 0 "U1" H 900 5050 50  0000 C CNN
-F 1 "CAT24C32" H 1400 5050 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1150 4800 50  0001 C CNN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 1150 4800 50  0001 C CNN
-F 4 "https://www.digikey.com.au/product-detail/en/on-semiconductor/CAT24C32WI-GT3/CAT24C32WI-GT3CT-ND/1631159" H 1150 4800 50  0001 C CNN "Link"
-F 5 "8-SOIC" H 0   0   50  0001 C CNN "Package"
-F 6 "ONsemi" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "CAT24C32" H 0   0   50  0001 C CNN "Mfg Part #"
-	1    1150 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -846,115 +831,6 @@ Text Label 6300 1300 0    50   ~ 0
 PWM7
 Wire Wire Line
 	6650 1300 6300 1300
-$Comp
-L power:GND #PWR0120
-U 1 1 5C0AF191
-P 650 5200
-F 0 "#PWR0120" H 650 4950 50  0001 C CNN
-F 1 "GND" H 655 5027 50  0000 C CNN
-F 2 "" H 650 5200 50  0001 C CNN
-F 3 "" H 650 5200 50  0001 C CNN
-	1    650  5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  4700 650  4700
-Wire Wire Line
-	650  4700 650  4800
-Wire Wire Line
-	1150 5100 1150 5150
-Wire Wire Line
-	1150 5150 650  5150
-Connection ~ 650  5150
-Wire Wire Line
-	650  5150 650  5200
-Wire Wire Line
-	750  4800 650  4800
-Connection ~ 650  4800
-Wire Wire Line
-	650  4800 650  4900
-Wire Wire Line
-	750  4900 650  4900
-Connection ~ 650  4900
-Wire Wire Line
-	650  4900 650  5150
-$Comp
-L power:+3.3V #PWR0121
-U 1 1 5C0FA9AC
-P 1150 4400
-F 0 "#PWR0121" H 1150 4250 50  0001 C CNN
-F 1 "+3.3V" H 1165 4573 50  0000 C CNN
-F 2 "" H 1150 4400 50  0001 C CNN
-F 3 "" H 1150 4400 50  0001 C CNN
-	1    1150 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 4500 1150 4400
-Text Label 1850 4800 2    50   ~ 0
-EECLK
-Wire Wire Line
-	1850 4800 1550 4800
-Text Label 1850 4700 2    50   ~ 0
-EEDATA
-Wire Wire Line
-	1850 4700 1550 4700
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5C136465
-P 2000 5150
-F 0 "JP1" V 1954 5218 50  0000 L CNN
-F 1 "WP" V 2045 5218 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2000 5150 50  0001 C CNN
-F 3 "~" H 2000 5150 50  0001 C CNN
-	1    2000 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5C13677D
-P 2000 4650
-F 0 "R2" V 1900 4550 50  0000 C CNN
-F 1 "3.9K" V 1900 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1930 4650 50  0001 C CNN
-F 3 "~" H 2000 4650 50  0001 C CNN
-F 4 "0603" H 0   0   50  0001 C CNN "Package"
-	1    2000 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1550 4900 2000 4900
-Wire Wire Line
-	2000 4900 2000 5000
-Wire Wire Line
-	2000 4800 2000 4900
-Connection ~ 2000 4900
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 5C15F06F
-P 2000 4400
-F 0 "#PWR0122" H 2000 4250 50  0001 C CNN
-F 1 "+3.3V" H 2015 4573 50  0000 C CNN
-F 2 "" H 2000 4400 50  0001 C CNN
-F 3 "" H 2000 4400 50  0001 C CNN
-	1    2000 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 4400 2000 4500
-$Comp
-L power:GND #PWR0123
-U 1 1 5C1736B2
-P 2000 5400
-F 0 "#PWR0123" H 2000 5150 50  0001 C CNN
-F 1 "GND" H 2005 5227 50  0000 C CNN
-F 2 "" H 2000 5400 50  0001 C CNN
-F 3 "" H 2000 5400 50  0001 C CNN
-	1    2000 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 5300 2000 5400
 $Comp
 L Device:LED D1
 U 1 1 5C19D327
@@ -2015,4 +1891,15 @@ Wire Wire Line
 	6100 7150 5900 7150
 Text Notes 4600 7350 0    118  ~ 24
 Add some I/O protection.
+$Comp
+L graphics:LCA2020Logo G?
+U 1 1 5DA95D6D
+P 750 6950
+F 0 "G?" H 775 6950 50  0000 L CNN
+F 1 "LCA2020Logo" H 750 6950 50  0001 C CNN
+F 2 "" H 750 6950 50  0001 C CNN
+F 3 "" H 750 6950 50  0001 C CNN
+	1    750  6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
